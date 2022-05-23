@@ -14,7 +14,6 @@ abstract class Usimliklar{
 }
   abstract class MevaliUsimlik extends Usimliklar{
       String nomi;
-      @Override
       public abstract void mevaBeradi();
       
   }

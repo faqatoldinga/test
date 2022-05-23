@@ -40,6 +40,15 @@ public class Texnikalar {
      public abstract void kuzoviKutarilmaydi();
  }
 
+ abstract class Samasvol extends YukMashina{
+     public abstract void qumtashiydi();
+     public abstract void toshTashiydi();
+ }
+
+ abstract class Bartovoy extends YukMashina{
+     public abstract void odamTashimaydi();
+ }
+
  
 
 
@@ -110,17 +119,67 @@ public class Texnikalar {
  }
 
 
- class YukMashina extends Moshina{
-     @Override
-     public void yuradi(){
+ class  Gax53  extends Samasvol{
 
-     }
+    @Override
+    public void qumtashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
 
-     @Override
-     public void yonadi(){
+    @Override
+    public void toshTashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
 
-     }
+    @Override
+    public void yukTashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
 
+    @Override
+    public void odamTashimaydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void odamTashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void kuzoviKutariladi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void kuzoviKutarilmaydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void yuradi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void yonadi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void ovozChiqaradi() {
+        // TODO Auto-generated method stub
+        
+    }
 
     @Override
     void yonish() {
@@ -133,49 +192,70 @@ public class Texnikalar {
         // TODO Auto-generated method stub
         
     }
+     
+ }
+
+
+ class Zil extends Bartovoy{
+
+    @Override
+    public void odamTashimaydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void yukTashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void odamTashiydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void kuzoviKutariladi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void kuzoviKutarilmaydi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void yuradi() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void yonadi() {
+        // TODO Auto-generated method stub
+        
+    }
 
     @Override
     public void ovozChiqaradi() {
         // TODO Auto-generated method stub
         
     }
- }
 
- class Samasvol extends YukMashina{
     @Override
-    public void yonadi(){
+    void yonish() {
+        // TODO Auto-generated method stub
         
     }
 
     @Override
-    public void odamTashimaydi{
-
+    void uchish() {
+        // TODO Auto-generated method stub
+        
     }
-
-    @Override
-    public void kuzoviKutariladi{
-
-    }
-
-    @Override
-    public void yukTashiydi{
-
-    }
- }
-
- class  bartovoy extends YukMashina{
      
-     @Override
-     public void kuzoviKutarilmaydi{
-
-     }
-
-     @Override
-     public void odamTashiydi{
-
-     }
-     @Override
-     public void yukTashiydi{
-
-     }
  }
